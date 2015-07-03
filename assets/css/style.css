@@ -229,3 +229,8 @@ h1, h2, h3, h4, h5, h6 {
 .gallery img:hover {
 	opacity: 0.4;
 }
+
+
+/* Masonry */
+.grid-item { width: 370px; }
+.grid-item--width2 { width: 740px; }

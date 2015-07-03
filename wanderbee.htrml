@@ -70,13 +70,26 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<h4>ABOUT WANDERBEE</h4>
 				<p>When Google Glass was first released, we experimented with the device. One of the best features about the device is the camera quality. We created the Wanderbee app which integrates WordPress and Google Glass. Share your story and send photos straight from your wearable device.</p>
-
 			</div>
+				
 			<div class="col-lg-10 col-lg-offset-1 mt">
 				<img class="img-responsive" src="assets/img/work_wbee_1.png">
 				<br>
-				<img class="img-responsive" src="assets/img/work_wbee_4.jpg">
+				<div class="col-lg-8 col-lg-offset-2 mt row">
+				<p>For the logo, I chose a bright and playful color palette inspired by wandering bumblebees. We wanted a logo that could be a traveler's friendly companion when taking photos around the world.</p>
+			</div>
+			<div class="clearfix"></div>
+			<img class="img-responsive" src="assets/img/work_wbee_4.jpg">
+				
+
+			<div class="col-lg-10 col-lg-offset-1 mt">
+				<img class="img-responsive" src="assets/img/work_wbee_1.png">
 				<br>
+				<div class="col-lg-8 col-lg-offset-2 mt row">
+				<p>We made mockups of mobile desktop and mobile versions. Users would be able to see the beautifully geotagged photos they took on a map.</p>
+			</div>
+			<div class="clearfix"></div>
+			<br>
 				<img class="img-responsive col-lg-6 col-md-4 col-sm-4 gallery" src="assets/img/work_wbee_2.png">
 				<br>
 				<img class="img-responsive col-lg-6 col-md-8 col-sm-4 gallery" src="assets/img/work_wbee_3.png">

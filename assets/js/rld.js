@@ -1,30 +1,30 @@
 var objects = [
-	["Hillary Clintons", 5.58, "http://placekitten.com/200/300"], 
-	["Blue Whales", 108.27], 
-	["Tyrannosaurus Rexes",40],
-   	["DC Metro Cars", 75],
-   	["Cars", 20],
-   	["Brachiosaurses", 85],
-   	["Giraffes", 16.9],
-   	["Football Fields", 300],
-   	["Olympic Sized Swimming Pools", 150],
-   	["Railroad Cars", 53],
-   	["Slip and Slides", 16],
-   	["Michael Jordans", 6.5],
-   	["Average American Driveways", 20],
-   	["Great White Sharks", 22.96],
-   	["Mane Jellyfish", 120]
+	["Hillary Clintons", 5.58, "http://i.imgur.com/dlGtWst.png"], 
+	["Blue Whales", 108.27, "http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/blue-whale-michael-vigliotti.jpg"], 
+	["Tyrannosaurus Rexes",40, "http://img2.wikia.nocookie.net/__cb20141230024946/jurassicpark/images/3/34/T-Rex_3.png"],
+   	["DC Metro Cars", 75, "http://www.wurlington-bros.com/DC/MetroTrainModel.jpg"],
+   	["Cars", 20, "http://dailythunder.com/wp-content/uploads/2010/01/large_minivan.jpg"],
+   	["Brachiosaurses", 85, "http://th09.deviantart.net/fs8/PRE/i/2005/276/5/3/Supersaurus_vivianae_by_unlobogris.jpg"],
+   	["Giraffes", 16.9, "http://l.rgbimg.com/cache1nGF2F/users/s/sq/sqback/600/mi45Ypw.jpg"],
+   	["Football Fields", 300, "http://media.lehighvalleylive.com/joe-owens_impact/photo/warren-hills-stadium-727b781e11c6638b.jpg"],
+   	["Olympic Sized Swimming Pools", 150, "http://cdn.londonandpartners.com/asset/937be3311e34f560fbbfae03f8196acc.jpg"],
+   	["Railroad Cars", 53, "http://www.midcontinent.org/rollingstock/builders/Images/harrisburg_tank.jpg"],
+   	["Slip and Slides", 16, "http://www.wired.com/wp-content/uploads/blogs/geekdad/wp-content/uploads/2012/06/GDB13.Slipnslide.jpg"],
+   	["Michael Jordans", 6.5, "https://espngrantland.files.wordpress.com/2014/05/jordan_wings.jpg"],
+   	["Average American Driveways", 20, "http://cx.aos.ask.com/question/aq/700px-394px/what-are-standard-driveway-lengths-and-widths_7bd61377-3e4f-4dae-9912-704b40843d25.jpg"],
+   	["Great White Sharks", 22.96, "http://www.dpi.nsw.gov.au/__data/assets/image/0003/219756/Great-white-shark.jpg"],
+   	["Mane Jellyfish", 120, "http://i.imgur.com/o067ztD.jpg"]
 	];
 
 function evaluateLength(){
-	var input = document.getElementById('userinput').value;
+   var input = document.getElementById('userinput').value;
    var array_length = objects.length;   
-   var random_value = Math.floor(Math.random() * (array_length - 0) + 0);
+   var random_value = Math.floor(Math.random() * array_length);
    var output = Math.round(input / objects[random_value][1]) + " " + objects[random_value][0];
    var html_element = document.getElementById('output_value');
    html_element.innerHTML = output;
-   
-   
+   var image_blast = document.getElementById("imageid");
+   image_blast.src=objects[random_value][2];
 }
 
 

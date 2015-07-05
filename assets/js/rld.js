@@ -1,19 +1,19 @@
 var objects = [
 	["Hillary Clintons", 5.58, "http://placekitten.com/200/300"], 
 	["Blue Whales", 108.27], 
-	["Tyrannosaurus Rexs",40],
+	["Tyrannosaurus Rexes",40],
    	["DC Metro Cars", 75],
    	["Cars", 20],
-   	["Brachiosauruses", 85],
+   	["Brachiosaurses", 85],
    	["Giraffes", 16.9],
    	["Football Fields", 300],
    	["Olympic Sized Swimming Pools", 150],
    	["Railroad Cars", 53],
-   	["Slip and slides", 16],
+   	["Slip and Slides", 16],
    	["Michael Jordans", 6.5],
-   	["Lengths of an Average American Driveway", 20],
+   	["Average American Driveways", 20],
    	["Great White Sharks", 22.96],
-   	["Mane Jellyfishes", 120]
+   	["Mane Jellyfish", 120]
 	];
 
 function evaluateLength(){

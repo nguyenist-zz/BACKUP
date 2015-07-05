@@ -74,15 +74,25 @@
 			<p>How long is your walk?</p>
 
    		<div>
-   			<input id='userinput' type='text' placeholder='Input a distance in feet'>&nbsp;&nbsp;
+   			<input id='userinput' type='text' placeholder='Distance'>&nbsp;&nbsp;
+   		<select id="choiceMetric">
+	      	  <option value="feet">Feet</option>
+			  <option value="meters">Meters</option>
+			  <option value="yards">Yards</option>
+			  <option value="kilometers">Kilometers</option>
+			  <option value="miles">Miles</option>
+			  <option value="nauticalmiles">Nautical Miles</option>
+      	</select>
    		</div>
-      		<button class='submit' type='submit' onclick='evaluateLength()' id='evaluate'>
+
+   		<button class='submit' type='submit' onclick='evaluateLength()' id='evaluate'>
       			Submit
-      		</button>
+      	</button>
+
    		<h3 class='walktext'>
    			Your walk is: <span id='output_value'></span> long 
    		</h3>
-   		<div class="col-lg-12 col-lg-offset-1 mt">
+   		<div class="col-lg-10 col-lg-offset-1 mt">
 				<img id="imageid" class="img-responsive" src="">
 		</div>
 

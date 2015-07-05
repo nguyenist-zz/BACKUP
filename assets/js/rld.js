@@ -17,15 +17,43 @@ var objects = [
 	];
 
 function evaluateLength(){
-   var input = document.getElementById('userinput').value;
+   // var input = document.getElementById('userinput').value;
+   var distance_in_feet = convert();
    var array_length = objects.length;   
    var random_value = Math.floor(Math.random() * array_length);
-   var output = Math.round(input / objects[random_value][1]) + " " + objects[random_value][0];
+   var output = Math.round(distance_in_feet / objects[random_value][1]) + " " + objects[random_value][0];
    var html_element = document.getElementById('output_value');
    html_element.innerHTML = output;
    var image_blast = document.getElementById("imageid");
    image_blast.src=objects[random_value][2];
 }
+
+function convert(){
+	var choice_metric = document.getElementById('choiceMetric').value;
+	var input = document.getElementById('userinput').value;
+	if(choice_metric==="feet"){
+		return input;
+	} else if (choice_metric==="meters"){
+		input = (input * 3.28084);
+		return input;
+	} else if (choice_metric==="kilometers"){
+		input = (input * 3280.84);
+		return input;
+	} else if (choice_metric==="yards"){
+		input = (input * 3);
+		return input;
+	} else if (choice_metric==="nauticalmiles"){
+		input = (input * 6076.12);
+		return input;
+	} else{
+		input = (input * 5280);
+		return input;
+	}
+	console.log(input);
+}
+
+
+
 
 
    

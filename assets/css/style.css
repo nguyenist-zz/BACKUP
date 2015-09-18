@@ -58,6 +58,11 @@
 	color: gray;
 	font-size:12px;
 	font-style: italic;
+	width: 90%;
+}
+
+.text-center{
+	text-align: center !important;
 }
 
 /* ==========================================================================

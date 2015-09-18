@@ -58,12 +58,10 @@
 	<div id="workwrap">
 	    <div class="container">
 			<div class="row">
-				<div class="col-lg-6">
 					<h1>Landmark Directions</h1>
 					<p><strong>Project:</strong> Mobile navigation app for pedestrian navigation.</p>
 					<p><strong>My role:</strong> Visual design, Interaction design, Prototype development, Front-end development</p>
 					<p><strong>Where and when:</strong> Silica Labs Software Corp | Oct 2014 - Present</p>
-				</div>
 			</div><! --/row -->
 	    </div> <!-- /container -->
 	</div><! --/workwrap -->
@@ -78,49 +76,84 @@
 				<p>Landmark is a mobile application for walking directions with step-by-step photos of geotagged landmarks.</p>
 			</br>
 
-
 				<h4>Problem</h4>
 				<p>(1) Navigation Apps Are Made for Cars & Bikes: Though almost every smartphone user relies on navigation apps, most navigation applications are car-centric, rooted in maps and driving, not landmarks and walking.</p>
 				<p>(2) Confusion & Time: It takes a few frustrating moments for your app to calibrate your new location. We often start walking and realize the blue dot on the map app is going in the wrong direction, and turn around, staring at our blue dot on a screen.</p>
 				</p>(3) Preference for Landmarks: A large number of people prefer navigation via landmarks over maps. This entire market segment, which research suggests skews female, has to rely on mapping applications anyway.</p>
 				<img class="img-responsive" src="assets/img/work_landmark_9.png"> <div class="caption">Examples of current navigation apps we have today which all give users a very similar experience: a highlighted route, a blue dot and a birds-eye view map. The middle image shows transportation map guides which can often be confusing to understand.</div>
-
 			</div>
 
-		</br>
 
-			<div class="col-lg-10 col-lg-offset-1 text-left">
-				<h4>Preliminary Interviews</h4>
+			<div class="col-lg-10 col-lg-offset-1 text-left mt">
+				<h4>Preliminary Interviews & Market Segmentation</h4>
 				<p>We wanted to gather preliminary feedback and investigate how people navigated and what pain points they felt while navigating on foot. Fifty in-person interviews and hundreds of online surveys reveal a segment that intensely wants landmark-based directions. The following quotes are representative.</p>
 				<p><em>“I’m a visual learner. I would love details on buildings, streets or landmarks I will pass on my route.”</em></p>
 				<p><em>“I don’t know what 75 feet away vs. 0.3 miles is. I don’t have a gauge for how long that’s going to take. Those directions are confusing to me.”</em></p>
 				<p><em>“It’s hard for me to read where I am on map on my smartphone since I have to zoom in so much. My blue dot is in the wrong spot so I end up walking the wrong way.”</em></p>
 				<p><em>“I hate navigating because it’s frustrating trying to figure out which way to go on a sidewalk full of people. When it’s dark at night, I feel unsafe walking with my phone and map app out.”</em></p>
 				<p><em>“All map apps look the same. Maps are also designed in a birds-eye view... but we aren’t birds.”</em></p>
+				<img class="img-responsive" src="assets/img/work_landmark_22.png">
+				<div class="caption">Source: Navigation and orientation in 3D user interfaces: the impact of navigation aids and landmarks // By Avi Parush & Dafna Berman, University of Ottawa 2004</div>
+			</br>
+				<img src="assets/img/work_landmark_21.png" style="width: 50%;">
+				<div class="caption" style="width: 50%;">Our target market would focus on women in the 18-35 age range. Based on that conclusion, we surveyed 93 people with those demographics and further concluded that the platform we would focus on would be iOS.</div>
 			</div>
 
 
 			<div class="col-lg-10 col-lg-offset-1 text-left">
-				<h4 class="mt">Wireframing and paper prototyping.</h4>
-					<p>We have focused on gathering helpful photos & designing UX that is more useful to some users than existing applications. We conducted a series of tests to understand what is the fastest way to gather photos of a city through Taskrabbits, Craigslist interns, photo taking in Lyft Cabs, gamification. Computer vision (CV) was the most efficient method. So, we developed a dashboard for data interns to manually select landmark photos from Foursquare across 10 cities. After categorizing thousands of photos with humans, we can use CV to sort more photos for us, much more quickly, at scale. 5 weeks and 80+ walking tests later, we have refined both our design and our method and are testing each week.</p>
-					<img class="img-responsive" src="assets/img/work_landmark_1.JPG">
-					<img class="img-responsive mt" src="assets/img/work_landmark_3.jpg">
-				<h4 class="mt">Design mockups and iteration.</h4>
-					<p>We have focused on gathering helpful photos & designing UX that is more useful to some users than existing applications. We conducted a series of tests to understand what is the fastest way to gather photos of a city through Taskrabbits, Craigslist interns, photo taking in Lyft Cabs, gamification. Computer vision (CV) was the most efficient method. So, we developed a dashboard for data interns to manually select landmark photos from Foursquare across 10 cities. After categorizing thousands of photos with humans, we can use CV to sort more photos for us, much more quickly, at scale. 5 weeks and 80+ walking tests later, we have refined both our design and our method and are testing each week.</p>
+				<h4 class="mt">Wireframing and paper prototyping</h4>
+					<p>After gathering insights about how pedestrians navigate and the pain points they experience along the way, we began prototyping various possibilities for the core user experience. Below we showcase a few, showing early sketches for how users would navigate using Landmark.</p>
+					<!-- <img class="img-responsive" src="assets/img/work_landmark_1.JPG"> -->
+					<img src="assets/img/work_landmark_14.jpg" style="width:32%;">
+					<img src="assets/img/work_landmark_15.jpg" style="width:32%;">
+					<img src="assets/img/work_landmark_16.jpg" style="width:32%;">
+
+				<h4 class="mt">Design mockups and iteration</h4>
+					<p>We focused on gathering helpful photos & designing UX that is more useful to some users than existing applications. Based on user feedback from our sketches and identified pain points, we began testing quick mockups of concepts that seemed to resonate with users. We met one-on-one with individuals, found users on Craigslist to walk with these prototypes in exchange for cash or Chipotle burritos. This stage of the process took months to refine and ensure we got the core user experience down before beginning to code any of these features.</p>
 					<img src="assets/img/work_landmark_10.png" style="width:24%;">
 					<img src="assets/img/work_landmark_11.png" style="width:24%;">
 					<img src="assets/img/work_landmark_12.png" style="width:24%;">
 					<img src="assets/img/work_landmark_13.png" style="width:24%;">
+					<div class="caption">These were very early mockups that were all drastically different takes on interfaces for pedestrian navigation. We wanted to understand: What elements are crucial and desired for comfort and ease while navigating?</div>
 				<h4 class="mt">Simulated walking usability studies</h4>
-					<p class>Over several weeks, we went on simulated routes and tweaked the prototype daily, designing with user feedback and interactions from the previous day. We narrowed it down to 2 designs that users found intuitive and enjoyed. We conducted more simulated walking routes, timed them and determined which design allowed users to orient and navigate easily and effectively. In total, we have interviewed or walked with over 300 people to validate.</p>
+					<p>Over several weeks, we went on simulated routes and tweaked the prototype daily, designing with user feedback and interactions from the previous day. We narrowed it down to 2 designs that users found intuitive and enjoyed. We conducted more simulated walking routes, timed them and determined which design allowed users to orient and navigate easily and effectively. In total, we have interviewed or walked with over 300 people to validate.</p>
+				</br>
+					<img src="assets/img/work_landmark_17.gif" style="width:32%;">
+					<img src="assets/img/work_landmark_18.gif" style="width:32%;">
+					<img src="assets/img/work_landmark_19.gif" style="width:32%;">
+					<p>One of the limitations of using static designs for usability studies is the lack of real-time information that could be served to the user. A few concrete examples include: The countdown of feet for each step, the user's current location on a map and the update of route information such as minutes left and arrival time. In order to get around this, we predetermined a route and timed each step. Humans walk at a moderate pace of 100 steps per minute (<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CB8QFjABahUKEwjd4cTI8oDIAhUKND4KHTUMCxQ&url=http%3A%2F%2Fwww.athleteinme.com%2FArticleView.aspx%3Fid%3D296&usg=AFQjCNE8ZklxoixIBjhvAV9nPY1yJBoPlA&sig2=Ot1QaqpL4UlXDcsHkaNlsw&bvm=bv.102829193,d.dmo">Athleteinme.com</a>). The average person's stride length is approximately 2.5 feet (<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CB8QFjABahUKEwj41Y_Z8oDIAhXMVT4KHeRpBUY&url=http%3A%2F%2Fwww.thewalkingsite.com%2F10000steps.html&usg=AFQjCNFYw8k38v-qgIWjmNeWwiiwQj3ILw&sig2=WNk-ZqdL84aKo9jsHiId5Q">The Walking Site</a>). We created GIFs for each screenshot with the approximate time each step would take in"real-time" in order to simulate the experiment in the most realistic way possible. The negative aspect to this GIF approach to distance countdowns meant that participants put too much trust in the accuracy and it ended up throwing them off in case something happened in the route.</p>
+				</br>
+				<img class="img-responsive" src="assets/img/work_landmark_3.jpg">
+					<p>We came up with way to circumvent the issue of mockups distracting the user by looking "too real" with the paper prototyping. In order to simulate one of the mockups in a walk test environment, we designed a route and printed photos of landmarks that users would pass and have to switch out at each pivot. The advantage of using printed photos is important when presenting these concepts or ideas to stakeholders and participants because they often will perceive hi-fidelity comprehensive layout as complete and put more trust into their functionality. With this method, we conveyed the concept but indicated to the participant not to put too much trust into accuracy.</p>
+				</br>
+					<img src="assets/img/work_landmark_20.png" style="width:100%">
+					<p>This is one of the routes we designed in downtown Washington, DC. We specifically chose this symmetrical route to be able to A/B test two design methods. Each experiment included the same number of turns and level of difficulty along with a similar total distance and time. After the usability studies, we compared the data and time it took for each version we tested to determine which was more effective for walking directions. Something interesting we learned was that with this type of navigation, users remembered an average of 60% of the landmark images after completing the route, a rate much higher than when users navigated using a map.</p>
+				</br>
 					<img class="img-responsive" src="assets/img/work_landmark_4.jpg">
+					<p>For months, we conducted walkability studies for months in the rain, arctic tundra and summer heat in order to understand how users think while navigating to a certain destination. In order to determine whether a design was successful nor not, we would lay out 5 success metrics such as:
+					<li>Success Metric 1 = Personal preference for Version A or B (very important)</li><li>Success Metric 2 = Start time</li>
+					<li>Success Metric 3 = Total route time</li>
+					<li>Success Metric 4 = A simple pass or fail task</li>
+					<li>Success Metric 5 = A simple pass or fail task</li>
+				</br>
+					Everytime we conducted a study, we allowed 30 minutes to jot down notes and key insights in order to continue improving the studies and getting closer to the minimum viable product.</p>
 			</div>
 
-			<div class="col-lg-10 col-lg-offset-1 mt text-left">
+			<div class="col-lg-10 col-lg-offset-1 text-left">
 				<h4 class="mt">Logo and branding process</h4>
 				<p>Landmark is a new way of getting on point A to point B without relying on compasses and paper maps. We wanted the logo to reflect a cleaner, simpler way of navigating. While incorporating a famous landmark in the logo seemed intuitive at first, many users immediately thought the app involved adventure and tourism in a new city instead of an alternative way of getting your everyday directions. After dozens of iterations, we decided to go with a fresh blue and red toned compass needle with fresh, modern typography. It emulated the simplicity of Landmark.</p>
-				<img class="img-responsive mt" src="assets/img/work_landmark_7.png">
-				<img class="img-responsive mt" src="assets/img/work_landmark_6.png">
+				<img class="img-responsive" src="assets/img/work_landmark_6.png">
+				<img class="img-responsive" src="assets/img/work_landmark_7.png">
+
+
+				<h4 class="mt">The Work</h4>
+				<p>Landmark is now available on both iPhone and Android and is in beta testing.</p>
+				<a href="https://itunes.apple.com/us/app/landmark-directions/id972096212?mt=8"><img src="assets/img/download_apple.png"></a>
+				<a href="https://play.google.com/store/apps/details?id=com.silicalabs.landmark"><img src="assets/img/download_google.png"></a>
+			</br>
+				<img src="assets/img/work_landmark_23.png" style="width:49%;">
+				<img src="assets/img/work_landmark_24.png" style="width:49%;">
+				
 				
 				<!-- <img class="img-responsive mt" src="assets/img/work_landmark_5.jpg"> -->
 				<!-- <h4 class="mt">App store assets</h4>
